@@ -69,7 +69,6 @@ public class CaesarCipher {
     }
 
     public void setShift(int shift) {
-
         if (shift > 26) {
             shift = shift % 26;
         }
